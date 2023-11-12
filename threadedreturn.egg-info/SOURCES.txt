@@ -1,0 +1,5 @@
+setup.py
+threadedreturn.egg-info/PKG-INFO
+threadedreturn.egg-info/SOURCES.txt
+threadedreturn.egg-info/dependency_links.txt
+threadedreturn.egg-info/top_level.txt
