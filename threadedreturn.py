@@ -2,7 +2,8 @@ from threading import Thread
 
 class ThreadWithReturnValue(Thread):
     def __init__(self, group=None, target=None, name=None,
-                 args=(), kwargs={}, Verbose=None):
+                 args=(), kwargs=None, Verbose=None):
+        kwargs = {} if kwargs is None else kwargs
         Thread.__init__(self, group, target, name, args, kwargs)
         self._return = None
 
